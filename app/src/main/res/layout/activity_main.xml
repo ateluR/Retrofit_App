@@ -20,7 +20,7 @@
     <RadioGroup
         android:id="@+id/RadioGroup1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="wrap_content" >
 
         <RadioButton
             android:id="@+id/radioButton"
@@ -47,5 +47,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button" />
+
+    <TextView
+        android:id="@+id/textViewNumer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pytanie nr.1"
+        android:gravity="center"/>
+
 
 </LinearLayout>
